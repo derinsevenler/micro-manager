@@ -358,13 +358,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NIMultiAnalog", "DeviceAdap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PeCon2000", "DeviceAdapters\PeCon2000\PeCon2000.vcxproj", "{63DEA291-B595-447A-8C7F-D32AFDA11DFD}"
 EndProject
-<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XYPolluxStage", "DeviceAdapters\XYPolluxStage\XYPolluxStage.vcxproj", "{96610EC8-364B-47B6-96A2-27EA99A20281}"
-=======
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaptorEPIX", "DeviceAdapters\RaptorEPIX\RaptorEPIX.vcxproj", "{805A53D5-1E00-42D7-96F0-661AC7D042A6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoribaEPIX", "DeviceAdapters\RaptorEPIX\HoribaEPIX.vcxproj", "{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}"
->>>>>>> refs/remotes/micro-manager/master
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XCiteXT600", "DeviceAdapters\XCiteXT600\XCiteXT600.vcxproj", "{97768FFD-1616-4CA5-902A-2F128118CC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1774,7 +1773,6 @@ Global
 		{F61EE788-E229-43F1-9E05-DAE2AB60B882}.Release|Win32.Build.0 = Release|Win32
 		{F61EE788-E229-43F1-9E05-DAE2AB60B882}.Release|x64.ActiveCfg = Release|x64
 		{F61EE788-E229-43F1-9E05-DAE2AB60B882}.Release|x64.Build.0 = Release|x64
-<<<<<<< HEAD
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|Win32.ActiveCfg = Debug|Win32
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|Win32.Build.0 = Debug|Win32
@@ -1786,8 +1784,6 @@ Global
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Release|x64.ActiveCfg = Release|x64
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Release|x64.Build.0 = Release|x64
 		{41F88027-BC30-4949-B407-42C2BCB34C60}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
-=======
->>>>>>> refs/remotes/micro-manager/master
 		{41F88027-BC30-4949-B407-42C2BCB34C60}.Debug|Win32.ActiveCfg = Debug|Win32
 		{41F88027-BC30-4949-B407-42C2BCB34C60}.Debug|Win32.Build.0 = Debug|Win32
 		{41F88027-BC30-4949-B407-42C2BCB34C60}.Debug|x64.ActiveCfg = Debug|x64
@@ -2134,8 +2130,6 @@ Global
 		{C8ADF958-CB16-4A2F-94D0-39086E7E0F6D}.Release|x64.Build.0 = Release|x64
 		{50929242-8E4F-4606-B30D-2A2D5131F645}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{50929242-8E4F-4606-B30D-2A2D5131F645}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-=======
->>>>>>> refs/remotes/micro-manager/master
 		{50929242-8E4F-4606-B30D-2A2D5131F645}.Debug|Win32.ActiveCfg = Debug|Win32
 		{50929242-8E4F-4606-B30D-2A2D5131F645}.Debug|Win32.Build.0 = Debug|Win32
 		{50929242-8E4F-4606-B30D-2A2D5131F645}.Debug|x64.ActiveCfg = Debug|Win32
@@ -2264,7 +2258,6 @@ Global
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Debug|Win32.Build.0 = Debug|Win32
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Debug|x64.ActiveCfg = Debug|x64
-<<<<<<< HEAD
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|Mixed Platforms.ActiveCfg = Release|x64
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|Mixed Platforms.Build.0 = Release|x64
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|Win32.ActiveCfg = Release|Win32
@@ -2272,13 +2265,6 @@ Global
 		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|x64.ActiveCfg = Release|x64
 		{9B70CD73-70F0-420F-8709-A50706DB2C2F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{9B70CD73-70F0-420F-8709-A50706DB2C2F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-=======
-		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Debug|x64.Build.0 = Debug|x64
-		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|Win32.ActiveCfg = Release|Win32
-		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|Win32.Build.0 = Release|Win32
-		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|x64.ActiveCfg = Release|x64
-		{788C63FE-C4C5-442C-9F56-A9326118D9BA}.Release|x64.Build.0 = Release|x64
->>>>>>> refs/remotes/micro-manager/master
 		{9B70CD73-70F0-420F-8709-A50706DB2C2F}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9B70CD73-70F0-420F-8709-A50706DB2C2F}.Debug|Win32.Build.0 = Debug|Win32
 		{9B70CD73-70F0-420F-8709-A50706DB2C2F}.Debug|x64.ActiveCfg = Debug|Win32
@@ -2357,7 +2343,6 @@ Global
 		{B51FE0EB-A748-4414-B180-48F9CFEC7BE4}.Release|Win32.Build.0 = Release|Win32
 		{B51FE0EB-A748-4414-B180-48F9CFEC7BE4}.Release|x64.ActiveCfg = Release|x64
 		{B51FE0EB-A748-4414-B180-48F9CFEC7BE4}.Release|x64.Build.0 = Release|x64
-<<<<<<< HEAD
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Debug|Win32.Build.0 = Debug|Win32
@@ -2370,8 +2355,6 @@ Global
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Release|x64.Build.0 = Release|x64
 		{5A3274BE-645D-4EFC-B51E-621367E0F7D9}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
 		{5A3274BE-645D-4EFC-B51E-621367E0F7D9}.Debug|Mixed Platforms.Build.0 = Debug|x64
-=======
->>>>>>> refs/remotes/micro-manager/master
 		{5A3274BE-645D-4EFC-B51E-621367E0F7D9}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5A3274BE-645D-4EFC-B51E-621367E0F7D9}.Debug|Win32.Build.0 = Debug|Win32
 		{5A3274BE-645D-4EFC-B51E-621367E0F7D9}.Debug|x64.ActiveCfg = Debug|x64
@@ -2534,7 +2517,6 @@ Global
 		{63DEA291-B595-447A-8C7F-D32AFDA11DFD}.Release|Win32.Build.0 = Release|Win32
 		{63DEA291-B595-447A-8C7F-D32AFDA11DFD}.Release|x64.ActiveCfg = Release|x64
 		{63DEA291-B595-447A-8C7F-D32AFDA11DFD}.Release|x64.Build.0 = Release|x64
-<<<<<<< HEAD
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -2545,7 +2527,6 @@ Global
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Release|Win32.ActiveCfg = Release|Win32
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Release|Win32.Build.0 = Release|Win32
 		{96610EC8-364B-47B6-96A2-27EA99A20281}.Release|x64.ActiveCfg = Release|Win32
-=======
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|Win32.ActiveCfg = Debug|Win32
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|Win32.Build.0 = Debug|Win32
 		{805A53D5-1E00-42D7-96F0-661AC7D042A6}.Debug|x64.ActiveCfg = Debug|x64
@@ -2562,7 +2543,6 @@ Global
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Release|Win32.Build.0 = Release|Win32
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Release|x64.ActiveCfg = Release|x64
 		{ED3E2C21-ADA8-446D-8951-26F1E6E9F4DC}.Release|x64.Build.0 = Release|x64
->>>>>>> refs/remotes/micro-manager/master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
